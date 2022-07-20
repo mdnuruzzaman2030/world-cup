@@ -12,18 +12,21 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .container{
     display: flex;
     background-color: #161616;
-    width: 1200px;
+    width: 1180px;
     padding: 20px;
     margin-top: 20px;
     border-radius: 15px;
 }
 
-/* Banner cover  */
+/* ------------------
+Banner cover 
+------------------- */
 .cover{
     padding-left: 30px;
 }
@@ -54,9 +57,154 @@ main{
 }
 
 .cover-img img{
+    
     margin-top: 50px;
     width: 800px;
     height: 94.1%;
     
 }
+
+
+
+/* <!---------------------------------------------------------
+        Upcoming match 
+    ----------------------------------------------------------> */
+
+    .nav-container{
+        display: flex;
+        margin-left: 250px;
+    }
+    .container-nav {
+        width: 312px;
+        background-color: #161616;
+        justify-content: center;
+        align-items: center;
+        margin-left: 140px;
+        height: 312px;
+        border-radius: 10px;
+    }
+    
+    .nav-item {
+        width: 252px;
+        height: 252px;
+    }
+    
+    .nav-item button {
+        width: 252px;
+        height: 64px;
+        border-radius: 15px;
+        margin-top: 30px;
+        margin-left: 30px;
+        font-weight: 500;
+        font-size: 20px;
+    
+    }
+    
+    .nav-item .btn-red {
+        background-color: #DD0000;
+        color: white;
+    }
+
+    
+    
+    
+    
+    /*----------------------------
+     Blogs  details  
+     ----------------------------*/
+    
+    
+    
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(3, 3fr);
+    }
+    
+    .blog {
+        width: 275px;
+        height: 380px;
+        border: 1px solid #E8E8E8;
+        border-radius: 30px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    
+    div img {
+        width: 275px;
+        height: 175px;
+    }
+    
+    h3 {
+        font-weight: 600;
+        font-size: 18px;
+    }
+    
+    .blog .transfer {
+        font-weight: 100;
+        text-align: center;
+        font-size: 15px;
+        background-color: #DD0000;
+        color: #E8E8E8;
+        border: 3px solid #161616;
+        border-radius: 5px;
+        width: 67px;
+        height: 24px;
+    }
+    
+    .blog-information {
+        margin-left: 10px;
+    }
+    
+    .timer {
+        display: flex;
+        align-items: center;
+        gap: 150px;
+    }
+
+    .fa-clock{
+        color: #DD0000;
+    }
+
+    .fa-comments{
+        color: blue;
+    }
+    
+    
+    
+    /* --------------------------
+          footer  
+    ---------------------------- */
+    
+    footer {
+        background-color: #161616;
+        padding-top: 120px;
+        width: 100%;
+        height: 444px;
+    }
+    
+    .h2-size {
+        color: #F3F1FF;
+        font-weight: 600;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    hr {
+        width: 1320px;
+        height: 0px;
+        margin-top: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .contact-Section{
+        margin-left: 300px;
+    }
+    
+    .contact-Section .fotter-text {
+        display: inline-block;
+        margin-left: 100px;
+        color: #bbb8b8;
+    }
 
