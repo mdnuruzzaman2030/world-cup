@@ -72,7 +72,7 @@ Banner cover
 
     .nav-container{
         display: flex;
-        margin-left: 250px;
+        margin-left: 675px;
     }
     .container-nav {
         width: 312px;
@@ -204,7 +204,7 @@ Banner cover
     
     .contact-Section .fotter-text {
         display: inline-block;
-        margin-left: 100px;
+        margin-top: 20px;
+        margin-left: 250px;
         color: #bbb8b8;
     }
-
